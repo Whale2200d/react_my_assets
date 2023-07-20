@@ -1,3 +1,33 @@
+# my-assets는 개발해보고 싶은 기능을 test해보기 위해 만들었습니다.
+
+필요에 따라 출처가 어떻게 되는지 파악하여 정리할 예정입니다.
+
+`npx create-react-app my-assets-ts --template typescript`
+
+- webpack 자동 세팅
+- babel 자동 세팅
+- react 자동 세팅
+- typescript 자동 세팅
+
+```
+  npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+```
+
+- styled-components
+
+- axios 설치
+- json-server 설치
+
+- react-hook-form 설치
+- react-query 설치
+- react-router-dom 설치
+- recoil 설치
+
+- socket.io 설치
+- express 설치
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
