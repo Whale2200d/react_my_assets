@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import ContextPage from './page/ContextPage';
+import DataPost from './components/DataCRUD/DataPost/DataPost';
+// import Chat from './components/Chat/Chat';
+import ButtonRendering from './components/ButtonRendering';
+import UserParameters from './components/UseParameters';
+import DataChildToParent from './components/DataChildToParent/Parent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<ContextPage />} />
+        <Route path="/post" element={<DataPost />} />
+        {/* <Route path="/chat" element={<Chat />} /> */}
+        <Route path="/buttonrendering" element={<ButtonRendering />} />
+        <Route path="/useparameter" element={<UserParameters />} />
+        <Route path="/datachildtoparent" element={<DataChildToParent />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
