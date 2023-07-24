@@ -20,6 +20,8 @@ function ContextPage() {
         <Link to="useref1">3-1. useRef1</Link>
         <Link to="useref2">3-2. useRef2</Link>
         <Link to="useref3">3-3. useRef3</Link>
+        <Link to="usecontext1">4-1. useContext1</Link>
+        <Link to="usecontext2">4-2. useContext2</Link>
       </S.Container>
     </>
   );

@@ -13,6 +13,8 @@ import UseEffect2 from './useHooks/UseEffect/UseEffect2';
 import UseRef1 from './useHooks/UseRef/UseRef1';
 import UseRef2 from './useHooks/UseRef/UseRef2';
 import UseRef3 from './useHooks/UseRef/UseRef3';
+import UseContext1 from './useHooks/UseContext/UseContext1/UseContext1';
+import UseContext2 from './useHooks/UseContext/UseContext2/UseContext2';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/useref1" element={<UseRef1 />} />
         <Route path="/useref2" element={<UseRef2 />} />
         <Route path="/useref3" element={<UseRef3 />} />
+        <Route path="/usecontext1" element={<UseContext1 />} />
+        <Route path="/usecontext2" element={<UseContext2 />} />
       </Routes>
     </BrowserRouter>
   );
