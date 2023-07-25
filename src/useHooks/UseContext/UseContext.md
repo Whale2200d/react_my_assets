@@ -14,12 +14,13 @@
 
 - Context API는 App 안에서 전역으로 사용되는 데이터를 여러 컴포넌트끼리 쉽게 공유할 수 있는 방법이다.
   > Props를 일일히 사용하지 않아도 된다.
--
 
 # 알게 된 사실(230724)
 
-- Context API의 장점 1 : 중간 Component에 불필요한 코드를 작성하지 않아도 된다.
-- Context API의 장점 2 : Drilling 과정에서 전달하고자는 데이터를 수정해버리면, 자식 Component부터 부모 Component들을 일일히 찾아서 수정해야되는 단점이 있다. Component가 많아질수록 문제가 커지기 때문에 이러한 문제를 미연에 방지할 수 있다.
+- Context API의 장점
+
+  - 장점 1 : 중간 Component에 불필요한 코드를 작성하지 않아도 된다.
+  - 장점 2 : Drilling 과정에서 전달하고자는 데이터를 수정해버리면, 자식 Component부터 부모 Component들을 일일히 찾아서 수정해야되는 단점이 있다. Component가 많아질수록 문제가 커지기 때문에 이러한 문제를 미연에 방지할 수 있다.
 
 - Context의 단점(그럼에도 Props가 필요한 이유)
 
